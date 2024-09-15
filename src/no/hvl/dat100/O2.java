@@ -10,6 +10,7 @@ public class O2 {
 		
 		for (int i = 1; i <= studenter.length; i++) {
 			char karakter = KarakterSkala(lesKarakter());
+			JOptionPane.showMessageDialog(null, "Student " + i + " fikk " + karakter);
 			System.out.println("Student " + i + " fikk " + karakter);
 		}
 		
